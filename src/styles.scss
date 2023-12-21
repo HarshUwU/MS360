@@ -1,0 +1,15 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+@import "C:/Users/harsh.kesharwani.ext/Downloads/PracticeApp/PracticeApp/src/app/app.component.scss";
+@import "C:/Users/harsh.kesharwani.ext/Downloads/PracticeApp/PracticeApp/src/app/sidenav/sidenav.component.scss";
+@import "C:/Users/harsh.kesharwani.ext/Downloads/PracticeApp/PracticeApp/src/app/home/home.component.scss";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #fff;
+}

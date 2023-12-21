@@ -1,0 +1,197 @@
+{
+  "Menus": [
+    {
+      "GroupText": "DASHBOARDS",
+      "Childrens": [
+        {
+          "type": "leaf",
+          "Icon": "notifications",
+          "DisplayText": "Alarms",
+          "Url": "dashboard",
+          "Cards": [
+            {
+              "Icon":"../assets/wallpaper.png",
+              "DisplayText": "alarms Card 1 ",
+              "Url": "https://www.google.com/"
+            },
+            {
+              "Icon": "../../abc.png",
+              "DisplayText": "alarms Card 2 ",
+              "Url": "https://localhost"
+            }
+          ]
+        },
+        {
+          "type": "leaf",
+          "Icon": "blur_circular",
+          "DisplayText": "Status ",
+          "Url": "dashboard",
+          "Cards": [
+            {
+              "Icon": "../../abc.png",
+              "DisplayText": "Status Card 1 ",
+              "Url": "https://localhost"
+            },
+            {
+              "Icon": "../../abc.png",
+              "DisplayText": "Status card 2",
+              "Url": "https://localhost"
+            }
+          ]
+        },
+        {
+          "type": "leaf",
+          "Icon": "scatter_plot",
+          "DisplayText": "Site View ",
+          "Url": "dashboard",
+          "Cards": [
+            {
+              "Icon": "../../abc.png",
+              "DisplayText": "Site View card1",
+              "Url": "https://localhost"
+            }
+          ]
+        }
+      ],
+      "Divider": "true"
+    },
+
+    {
+      "GroupText": "DATA EXPLORER",
+      "Childrens": [
+        {
+          "type": "group",
+          "Icon": "schedule",
+          "DisplayText": "Reports",
+          "Items": [
+            {
+              "Icon": "http",
+              "DisplayText": "General Reports",
+              "Url": "dashboard",
+              "Cards": [
+                {
+                  "Icon": "../../abc.png",
+                  "DisplayText": "General Reports card",
+                  "Url": "https://localhost"
+                }
+              ]
+            },
+            {
+              "Icon": "http",
+              "DisplayText": "Monthly Reports",
+              "Url": "dashboard",
+              "Cards": [
+                {
+                  "Icon": "../../abc.png",
+                  "DisplayText": "Monthly Reports card",
+                  "Url": "https://localhost"
+                }
+              ]
+            },
+            {
+              "Icon": "http",
+              "DisplayText": "Raw Data",
+              "Url": "dashboard",
+              "Cards": [
+                {
+                  "Icon": "../../abc.png",
+                  "DisplayText": "Raw Data card",
+                  "Url": "https://localhost"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "Icon": "timeline",
+          "DisplayText": "Data Viewer",
+          "Items": [
+            {
+              "Icon": "http",
+              "DisplayText": "Data Trends",
+              "Url": "dashboard",
+              "Cards": [
+                {
+                  "Icon": "../../abc.png",
+                  "DisplayText": "data trends card",
+                  "Url": "https://localhost"
+
+                }
+              ]
+            },
+            {
+              "Icon": "http",
+              "DisplayText": "FastLog Data",
+              "Url": "https://localhost"
+            },
+            {
+              "Icon": "http",
+              "DisplayText": "Charts",
+              "Url": "https://localhost"
+            }
+          ]
+
+
+        }
+      ],
+      "Divider": "true"
+    },
+
+    {
+      "GroupText": "FEATURES",
+      "Childrens": [
+        {
+          "type": "group",
+          "Icon": "local_florist",
+          "DisplayText": "Enivormental Control",
+          "Items": [
+            {
+              "Icon": "",
+              "DisplayText": "General Reports",
+              "Url": "dashboard",
+              "Cards": [
+                {
+                  "Icon": "../../abc.png",
+                  "DisplayText": "General Reports card",
+                  "Url": "https://localhost"
+                }
+              ]
+            },
+            {
+              "Icon": "",
+              "DisplayText": "Monthly Reports",
+              "Url": "dashboard",
+              "Cards": [
+                {
+                  "Icon": "../../abc.png",
+                  "DisplayText": "Monthly Reports card",
+                  "Url": "https://localhost"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "leaf",
+          "Icon": "360",
+          "DisplayText": "Supervisory",
+          "Url": "dashboard",
+          "Cards": [
+            {
+              "Icon": "../../abc.png",
+              "DisplayText": "supervisory Card1",
+              "Url": "https://localhost"
+            },
+            {
+              "Icon": "../../abc.png",
+              "DisplayText": "supervisory Card2",
+              "Url": "https://localhost"
+            }
+          ]
+        }
+      ],
+      "Divider": "true"
+    }
+  ]
+}

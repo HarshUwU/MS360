@@ -1,0 +1,26 @@
+<mat-card>
+  <mat-card-title class="heading">{{ DashboardData }}</mat-card-title>
+  <div class="container">
+    <div *ngFor="let item of test">
+      <button
+        mat-raised-button
+        class="btn"
+        (click)="showImage(item.Icon, item.Url)"
+      >
+        {{ item.DisplayText }}
+      </button>
+    </div>
+  </div>
+</mat-card>
+
+<div *ngIf="selectedImage">
+  <mat-card class="picture">
+    <a href="{{ selectedUrl }}" target="_blank">
+      <img [src]="selectedImage" />
+    </a>
+ 
+    <a href="https://www.google.com/" target="_blank">
+      <button mat-raised-button class="fab">Ask Me</button>
+      </a>
+  </mat-card>
+</div>

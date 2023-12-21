@@ -1,0 +1,90 @@
+{
+  "Menus":
+  [{
+    "GroupText":
+      "Dashboard",
+    "Children":{
+        "MenuItem":{
+          "icon":"alarm",
+          "text":"Alarm",
+          "url":"/alarms",
+          "Cards":{
+            "card1":[{
+              "icon":"online alarm",
+              "display-text":"Online Alarm",
+              "Images": [
+                {
+                  "path": "",
+                  "ClickUrl": ""
+                },
+
+                {
+                  "path": "",
+                  "ClickUrl": ""
+                }
+              ]
+            }],
+            "card2":[{
+              "icon":"alarm log",
+              "display-text":"Alarm Log",
+
+              "Images": [
+                {
+                  "path": "",
+                  "ClickUrl": ""
+                },
+
+                {
+                  "path": "",
+                  "ClickUrl": ""
+                },
+
+                {
+                  "path": "",
+                  "ClickUrl": ""
+                }
+
+              ]
+
+            }],
+            "card3":[{
+              "icon":"alarm statics",
+              "display-text":"Alarm Statics",
+
+              "Images": [
+                {
+                  "path": "",
+                  "ClickUrl": ""
+                }
+              ]
+            }]
+          }
+        }
+       },
+       "MenuItem":{
+        "icon":"status",
+        "text":"Status",
+        "url":"localhost:4200/Status",
+        "Cards":{
+          "card1":[{
+            "icon":"online alarm",
+            "display-text":"Online Alarm",
+
+            "Images": [
+              {
+                "path": "",
+                "ClickUrl": ""
+              },
+
+              {
+                "path": "",
+                "ClickUrl": ""
+              }
+            ]
+          }]
+        }
+      }
+    }
+  ]
+}
+
